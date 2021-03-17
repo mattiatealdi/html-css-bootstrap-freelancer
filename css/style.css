@@ -1,0 +1,31 @@
+.debug [class*="col-"]{
+  background: red;
+  border:1px solid black;
+  min-height: 50px;
+}
+
+.mt{
+  height: 500px;
+  background-color: greenyellow;
+}
+
+.start{
+  height: 100vh;
+  background-color:aqua;
+}
+
+.portfolio{
+  height:100vh;
+  background: white;
+}
+
+.title{
+  height: 100px;
+}
+
+.imgs *{
+  background-color:blueviolet;
+  height:200px;
+  border: 1px solid black;
+}
+
