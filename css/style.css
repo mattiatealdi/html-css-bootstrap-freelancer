@@ -4,14 +4,20 @@
   min-height: 50px;
 }
 
+.nav{
+  background: #2C3E50;
+  height: 100px;
+}
+
 .mt{
   height: 500px;
   background-color: greenyellow;
+  border: 1px solid black;
 }
 
 .start{
   height: 100vh;
-  background-color:aqua;
+  background: #1ABC9C;
 }
 
 .portfolio{
@@ -27,5 +33,6 @@
   background-color:blueviolet;
   height:200px;
   border: 1px solid black;
+  border-radius: 10px;
 }
 
