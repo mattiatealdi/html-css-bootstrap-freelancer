@@ -56,6 +56,25 @@
   background-color: #2C3E50;
 }
 
+.mt-bold{
+  font-weight: bold;
+}
+
+.mt-text-white{
+  color: white;
+}
+
+.mt-background-none{
+  background:none;
+}
+
+.mt-download-btn{
+  color:white;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px;
+}
+
 /* header */
 header{
   background-color: #2C3E50;
@@ -100,3 +119,21 @@ header{
   margin-bottom: 15px;
 }
 
+/* modifiche a bootstrap */
+
+.form-group .form-control{
+  border: none;
+  box-shadow:none;
+  border-bottom: 1px solid #EBEBEB;
+  border-radius: 0px; 
+}
+ .form-group .form-control::placeholder{
+    color: #3E4F5F;
+    font-size: 16px;
+  }
+
+  .btn-default{
+    background-color: #1ABC9C;
+    color: white;
+    border:none;
+  }
