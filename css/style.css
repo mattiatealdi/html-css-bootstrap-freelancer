@@ -72,7 +72,11 @@
   color:white;
   border-radius: 5px;
   border: 1px solid white;
-  padding: 5px;
+  padding: 7px;
+}
+
+.mt-background-greenblue{
+  background-color: #1ABC9C;
 }
 
 /* header */
@@ -98,11 +102,23 @@ header{
   font-weight: bold;
 }
 
+.btn.btn-default.mt-btn-top{
+  background-color: #2C3E50;
+  border:1px solid #9AA0A7;
+  color: #9AA0A7;
+}
+
+.mt-img-avatar{
+  width: 50%;
+  max-width: 992px;
+}
+
 /* jumbotron */
 
-.mt-jumbotron{
-  height: 500px;
-  background-color: greenyellow;
+
+
+.mt-avatar-img{
+  width: 50%;
 }
 
 /* about */
@@ -127,13 +143,13 @@ header{
   border-bottom: 1px solid #EBEBEB;
   border-radius: 0px; 
 }
- .form-group .form-control::placeholder{
-    color: #3E4F5F;
-    font-size: 16px;
-  }
+.form-group .form-control::placeholder{
+  color: #3E4F5F;
+  font-size: 16px;
+}
 
-  .btn-default{
-    background-color: #1ABC9C;
-    color: white;
-    border:none;
-  }
+.btn-default{
+  background-color: #1ABC9C;
+  color: white;
+  border:none;
+}
